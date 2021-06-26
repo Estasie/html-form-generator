@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+}
+
+form{
+    width: 50%;
+    min-height: 50%;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item{
+    margin: 2%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.dark-form{
+    background-color: #01024E;
+}
+
+.input{
+    width: 100%;
+    min-height: 36px;
+    border-radius: 4px;
+}
+
+input[type="checkbox"], input[type="radio"]{
+    min-height: 20px;
+    display: inline-flex;
+    width: auto;
+    margin-right: 2%;
+}
+
+.form-item--checkbox, .form-item--radio{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+.form-item--checkbox>.label ,.form-item--radio>.label{
+    margin-bottom: 0;
+}
+.label{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.button{
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 40px;
+    max-height: 20%;
+    display: flex;
+   justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    letter-spacing: .1rem;
+}
+
+.dark-input{
+    background: none;
+    border: 1px solid #8B4367;
+    color: #FF6464;
+    outline: none;
+}
+
+.form-select{
+    width: 50%;
+    min-height: 36px;
+    background: none;
+    padding-left: 2%;
+    font-weight: 700;
+}
+
+
+
+.dark-input:focus{
+    background: #FF646450;
+}
+
+.dark-label{
+    color: #FF6464;
+}
+
+.dark-button{
+    background: #FF6464;
+    color: #01024E;
+}
+
+.dark-select{
+    border: 1px solid #FF6464;
+    color: #FF6464;
+}
+
+.dark-select:focus{
+    outline: none;
+    outline: #FF646450;
+}
+
+/* LIGHT THEME */
+
+.light-form{
+    background-color: #FCE2DB;
+}
+
+
+.light-input{
+    background: none;
+    border: 1px solid #E4A3D4;
+    color: #C295D8;
+    outline: none;
+}
+
+
+.light-input:focus{
+    background: #E4A3D450;
+}
+
+.light-label{
+    color: #C295D8;
+}
+
+.light-button{
+    background: #E4A3D4;
+    color: #FCE2DB;
+}
+
+.light-select{
+    border: 1px solid #E4A3D4;
+    color: #C295D8;
+}
+
+.light-select:focus{
+    outline: none;
+    background: #E4A3D450;
+}

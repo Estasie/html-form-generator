@@ -1,0 +1,66 @@
+{
+  "inputs": [
+    {
+      "type": "text",
+      "name": "e-mail",
+      "id": "e1",
+      "label-text": "E-mail"
+    },
+    {
+      "type": "text",
+      "name": "login",
+      "id": "l1",
+      "label-text": "Логин"
+    },
+    {
+      "type": "password",
+      "name": "password",
+      "id": "p1",
+      "label-text": "Пароль"
+    },
+    {
+      "type": "checkbox",
+      "name": "checkbox",
+      "id": "c1",
+      "label-text": "Я подтверждаю своё действие"
+    }, 
+    {
+      "type": "radio", 
+      "name" : "testradio",
+      "value" : "Тестовое radio 1"
+    },
+    {
+      "type": "radio", 
+      "name" : "testradio",
+      "value" : "Тестовое radio 2"
+    },
+    {
+      "type": "radio", 
+      "name" : "testradio",
+      "value" : "Тестовое radio 3"
+    }
+  ],
+  "submit": [
+    {
+      "text": "Отправить",
+      "action": "/"
+    }
+  ],
+  "selects": [
+    {
+      "name": "test select group",
+      "required": true,
+      "form" : "f1",
+      "options": [
+        { "value": "Пункт 1" },
+        { "value": "Пункт 2" },
+        { "value": "Пункт 3" }
+      ]
+    }
+  ],
+  "textareas" : [
+    {
+      "name" : "test"
+    }
+  ]
+}
